@@ -1,7 +1,8 @@
+@import url(http://fonts.googlepis.com/css?family=Montserrat:400,700)
 body {
   color:#555
   margin:0;
-  font-family: 'Monteserrat',sans-serif;
+  font-family: 'Montserrat',sans-serif;
 }
 #header {
   background-color: #1abc9c
@@ -89,4 +90,16 @@ h1,h2,h3.h4 {
 }
 p {
   line-height 1.5;
+}
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.About {
+  text-align: center;
+}
+.post-author img,
+.about-author img {
+  border-radius: 50%;
 }
